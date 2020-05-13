@@ -29,6 +29,16 @@ This program requires .NET to be installed. It uses the MSTest tool to test poss
            Player Two - Computer, Rock
   * Output: Game - Tied
 
+* Compares the players' choices and if they are the same, returns a tie
+  * Input: Player One - Rock, Player Two - Rock
+  * Output: Tie
+            Play Again? Y/N
+
+* Compares the players' choices and if they are the different, determine the winner
+  * Input: Player One - Rock, Player Two - Paper
+  * Output: Paper beats rock
+            Play Again? Y/N
+
 ## Known Bugs
 
 No known bugs as of 5/13/2020
