@@ -11,10 +11,6 @@ namespace RPC.Tests
     {
       Player testPlayer = new Player("rock", true);
       Assert.AreEqual(typeof(Player), testPlayer.GetType());
-
     }
-  
-  
   }
-
 }
