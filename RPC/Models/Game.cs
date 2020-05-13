@@ -17,8 +17,7 @@ namespace RPC.Models
 
     public static string PlayGame()
     {
-      string result = "";
-      string p1Move = _playerList[0].Move, p2Move = _playerList[1].Move;
+      string p1Move = _playerList[0].Move, p2Move = _playerList[1].Move, result = "";
       if (p1Move == p2Move)
       {
         result = "tie";
@@ -70,7 +69,6 @@ namespace RPC.Models
       return result;
     }
 
-    
     public static void ClearAll()
     {
       _playerList.Clear();
