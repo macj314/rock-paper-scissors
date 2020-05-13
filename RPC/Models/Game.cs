@@ -67,51 +67,10 @@ namespace RPC.Models
         default:
           break;
       }
-      
-      // else if (p1Move == "paper" && p2Move == "rock")
-      // {
-      //   result = "paper beats rock - player one is the winner";
-      // }
       return result;
     }
 
-    //string p1Move = _playerList[0].Move
-    //string p2Move = _playerList[1].Move
-    //switch(p1Move)
-    //{
-    //  case "paper":
-    //    switch(p2Move)
-    //    {
-    //      case "rock":
-    //        result = $"{p1Move} beats {p2Move}";
-    //        break;
-    //      case "scissors":
-    //        result = $"{p2Move} beats {p1Move}";
-    //        break;
-    //    }
-    //  case "scissors":
-    //    switch(p2Move)
-    //    {
-    //      case "rock":
-    //        result = $"{p2Move} beats {p1Move}";
-    //        break;
-    //      case "paper":
-    //        result = $"{p1Move} beats {p2Move}";
-    //        break;
-    //    }
-    //  case "rock":
-    //    switch(p2Move)
-    //    {
-    //      case "paper":
-    //        result = $"{p2Move} beats {p1Move}";
-    //        break;
-    //      case "scissors":
-    //        result = $"{p1Move} beats {p2Move}";
-    //        break;
-    //    }
-    //  default:
-    //    break;
-    //}
+    
     public static void ClearAll()
     {
       _playerList.Clear();
